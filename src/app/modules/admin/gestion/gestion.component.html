@@ -1,0 +1,44 @@
+<div class="w-full h-full flex flex-col p-4 bg-white">
+  <h1 class="font-bold text-3xl text-blue-600">Gestion de Clientes</h1>
+  <p class="text-gray-400">Elige una de las operaciones de gestion.</p>
+  <div class="border-b w-full pt-4"></div>
+  <div class="flex flex-col justify-center sm:flex-row gap-5 m-auto hover:animate-spin">
+    <section (click)="goToDefinedOperation('naturales');" class="cursor-pointer block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700 h-full w-full">
+      <h5
+      class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white"
+  >
+  <span class="text-5xl">👩‍💼</span>
+  <br>
+      Gestión Clientes 
+      <br>
+      Naturales
+  </h5>
+  <p
+  class="mb-2 text-base tracking-tight text-gray-900 dark:text-white"
+>
+  Realiza la gestion a los clientes naturales.
+</p>
+    </section> 
+    <section (click)="goToDefinedOperation('juridicos');" class="cursor-pointer block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700 h-full w-full">
+      <h5
+      class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white"
+  >
+        <span class="text-5xl">🏢</span>
+        <br>
+        Gestion Clientes 
+        <br>
+        Juridicos
+      </h5>
+      <p
+  class="mb-2 text-base tracking-tight text-gray-900 dark:text-white"
+>
+  Realiza la gestion a los clientes juridicos.
+</p>
+    </section> 
+    <div>
+     
+      
+  </div> 
+    
+  </div>
+</div>
