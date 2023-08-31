@@ -1,6 +1,6 @@
 export const environment = {
     production: true,
-    apiResrURL: '',
+    apiResrURL: 'dsd',
     apiURLClient: '',
     apiURLAccounts: 'https://arquitectura-1sa89r3l.uc.gateway.dev',
     // administrationAPIUrl:
