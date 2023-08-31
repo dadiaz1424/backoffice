@@ -1,8 +1,8 @@
 {
   "projects": {
-    "default": "backoffice-6ea1c",
+    "default": "striped-reserve-397605",
     "david": "prueba-ced3d",
-    "backoffice": "backoffice-6ea1c"
+    "backoffice": "striped-reserve-397605"
   },
   "targets": {
     "bquito-g1-boffice": {
