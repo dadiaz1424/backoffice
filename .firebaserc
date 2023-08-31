@@ -1,4 +1,9 @@
 {
+  "projects": {
+    "default": "backoffice-6ea1c",
+    "david": "prueba-ced3d",
+    "backoffice": "backoffice-6ea1c"
+  },
   "targets": {
     "bquito-g1-boffice": {
       "hosting": {
@@ -8,7 +13,5 @@
       }
     }
   },
-  "projects": {
-    "default": "bquito-g1-boffice"
-  }
+  "etags": {}
 }
